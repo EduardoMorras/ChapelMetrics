@@ -1610,10 +1610,10 @@ proc main(args: [] string) {
     analyzer.analyzeProject(inputDir);
     
     // Generate PikChr diagram
-    var diagram = analyzer.generatePikChrDiagram();
+    //var diagram = analyzer.generatePikChrDiagram();
     
     // Save diagram
-    analyzer.saveDiagram(diagram, outputFile);
+    //analyzer.saveDiagram(diagram, outputFile);
     
     // Print statistics
     analyzer.printStatistics();

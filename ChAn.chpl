@@ -1,11 +1,3 @@
-//#!/usr/bin/env chpl
-
-/*
- * Chapel Call Graph Analyzer with Complexity Metrics
- * Generates PikChr diagrams for parallel and distributed Chapel code
- * Compatible with Chapel 2.5 on FreeBSD
- */
-
 use IO, List, Math, Map, Set, Path, FileSystem, Regex;
 
 // Configuration parameters
